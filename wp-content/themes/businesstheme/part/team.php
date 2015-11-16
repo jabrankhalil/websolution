@@ -65,5 +65,5 @@ $teams = array_chunk($team, 3);
             </div>
         </div>
     </div>
-<?php chimpy_lite_form(); ?>
+
 </section>

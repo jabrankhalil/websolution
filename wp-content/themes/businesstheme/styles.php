@@ -6,5 +6,9 @@ header{
     ?>
     background-image:url(<?php echo $image[0];?>)!important;
 }
+.intro-heading
+{
+   font-size:50px !important;
+}
 
 </style>

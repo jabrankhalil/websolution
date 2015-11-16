@@ -20,7 +20,7 @@ if ( ! function_exists( 'businesstheme' ) ) :
         add_image_size( 'twentyfourteen-full-width', 1038, 576, true );
         add_image_size( 'service-image',255,255,true);
         add_image_size( 'portfolio-image',400 , 289,true);
-        add_image_size( 'team-image',235 , 235,true);
+        add_image_size( 'team-image',235 , 235,false);
         add_image_size( 'about-image',170 , 170,true);
         add_image_size('single',300,500);
         add_image_size('header',1300,800,true);
@@ -66,7 +66,7 @@ if ( ! function_exists( 'businesstheme' ) ) :
             //remove_menu_page( 'themes.php' );                 //Appearance
             //remove_menu_page( 'plugins.php' );                //Plugins
             //remove_menu_page( 'users.php' );                  //Users
-            remove_menu_page( 'tools.php' );                  //Tools
+            //remove_menu_page( 'tools.php' );                  //Tools
             //remove_menu_page( 'options-general.php' );        //Settings
 
         }

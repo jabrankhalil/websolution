@@ -38,10 +38,8 @@
             <!-- mail chimp -->
 
             <div class="row">
-                <div  id="googleMap" class="col-md-6 googlemap" >
-
-                </div>
-                <div class="col-md-6 ">
+                <div  id="googleMap" class="col-sm-12 col-md-6 googlemap"></div>
+                <div class="col-sm-12 col-md-6 ">
                     <div id="mc_embed_signup">
                         <form action="//easybuy.us11.list-manage.com/subscribe/post?u=8aaafdacc68935469f6b53b66&amp;id=d005e80133" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                             <div id="mc_embed_signup_scroll">
@@ -83,6 +81,7 @@
             </div>
         </div>
     </div>
+
 </footer>
 <div class="modal fade" id="agencyform">
     <div class="modal-dialog">
@@ -92,7 +91,7 @@
                 <h4 class="modal-title">CONTACT US</h4>
             </div>
             <div class="modal-body">
-                <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 7 ); }?>
+                <?php if( function_exists( 'ninja_forms_display_form' ) ){ echo ninja_forms_display_form(6); }?>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
